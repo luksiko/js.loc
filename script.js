@@ -1,59 +1,59 @@
-// 'use strict';
+// let money = "Ваш бюджет на месяц?";
 
-a = 5;
+// var d = new Date();
+// var day = d.getDate();
+// var month = d.getMonth() + 1;
+// var year = d.getFullYear();
 
-console.log(a);
+// let money = prompt("Ваш бюджет на месяц в $?", "300", "");
+// let time = prompt("Введите дату в формате YYYY-MM-DD", year + "-" + month + "-" + day, "");
 
-var number = 5;
-var string = "HELLO!";
-var sym = Symbol();
-var boolean = true;
-null;
-undefined;
-var obj = {};
+// let article = prompt('Введите обязательную статью расходов в этом месяце', "Статья", "");
+// let cost = prompt('Во сколько обойдется?', "300$", "");
 
-console.log(4/0);
-console.log('string'*9);
+// let appData = {
+//   bujet: money,
+//   date: time,
+//   expenses: {
+//     article : cost
+//     },
+//   optionalExpenses: null,
+//   income: null,
+//   savings: false,
+// };
+// alert('Ваш бюджет на сегодня: '+money/30+'$');
 
-let something;
-console.log(something);
+let num = 50;
 
-// let person = {
-//   name: "John",
-//   age: 25,
-//   isMarried: false
+// while (num < 55) {
+//   console.log(num);
+//   num++;
+// }
+
+// do {
+//   console.log(num);
+//   num++;
+// }
+// while (num < 55);
+
+// for (let i = 1; i < 8; i++) {
+//   console.log(i);
 // };
 
-// console.log(person['name']);
+// for (let i = 1; i < 8; i++) {
+//   if (i == 6) {
+//    //  break
+//    continue;
+//   }
+//    console.log(i);
+//  }
 
-// let arr = ['plum.png','or.jpg','apple.bmp'];
+//  let x = 5; alert( x++ );
+// console.log([ ] + 1 + 2);
+// let y = 1; let x = y = 2; alert(x);
 
-// console.log(arr[2])
+// alert( "1"[0] );
 
-// // alert("Hello World!")
+// console.log( 2 && 1 && null && 0 && undefined );
 
-// // let answer = confirm("Are you here?")
-
-// let answer = +prompt("Есть ли вам 18?", "Да", "" );
-
-//  console.log(typeof(answer));
-
-// console.log("arr" + " - object");
-// console.log(4 + " - object");
-
-let incr = 10,
-    decr = 10;
-
-// incr++;
-// decr--;
-
-console.log(incr++);
-console.log(decr--);
-
-console.log(5%2);
-console.log("2" ===  2);
-
-let isChecked = true,
-    isClose = true;
-
-console.log(isChecked || isClose);
+console.log( !!( a && b ) = (a && b))
