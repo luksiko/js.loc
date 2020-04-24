@@ -56,4 +56,16 @@ let num = 50;
 
 // console.log( 2 && 1 && null && 0 && undefined );
 
-console.log( !!( a && b ) = (a && b))
+// console.log( !!( a && b ) = (a && b))
+
+// alert( null || 2 && 3 || 4 ); // 3
+
+// let a = [1, 2, 3]; 
+// let b = [1, 2, 3];
+// console.log("ёжик" > "яблоко"); //True
+// alert( +"Infinity" );
+
+// console.log( 0 || "" || 2 || undefined || true || falsе );
+
+
+
