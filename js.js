@@ -61,4 +61,28 @@
 // }
 
 // learnJS("JavaScript", done);
-
+let p = document.querySelector('body');
+class Options {
+  constructor(height, width, bg, fontSize, textAlign) {
+    this.height = height;
+      this.width = width;
+      this.bg = bg;
+      this.fontSize = fontSize;
+      this.textAlign = textAlign;
+  }
+  sayHi() {
+    let div = document.createElement('div');
+    div.className = 'newDiv';
+    p.insertAdjacentElement('beforeend', div);
+    let param = `height:${this.height}px; 
+    width${this.width}px; 
+    background-color:${this.bg}; 
+    fontSize:${this.fontSize}px; 
+    textAlign:${this.textAlign};`;
+    div.style.cssText = param;
+    div.textContent = 'Это новый DIV';
+  }
+}
+console.log(p);
+let option = new Options(20, 20, "red", 40, "center");
+option.sayHi();
