@@ -6,7 +6,7 @@
   "dependencies": {
     "browserify": "^16.5.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
